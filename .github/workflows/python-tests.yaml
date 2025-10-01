@@ -28,7 +28,8 @@ jobs:
         run: black --check .
 
       - name: Run Mypy (type checking)
-        run: mypy .
+        run: |
+          mypy --install-types --non-interactive .
 
       - name: Run Pytest with coverage
         run: pytest --cov=. --cov-report=term-missing --cov-fail-under=80 -v
