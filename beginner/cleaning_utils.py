@@ -2,7 +2,7 @@ import pandas as pd
 from typing import Optional
 
 
-def load_and_clean(path: str = "data/messy.csv") -> pd.DataFrame:
+def load_and_clean(path: str = "beginner/data/messy.csv") -> pd.DataFrame:
     """Load a messy dataset and return a cleaned DataFrame."""
     df = pd.read_csv(path)
 

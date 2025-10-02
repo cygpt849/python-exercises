@@ -2,7 +2,7 @@
 import pandas as pd
 from pathlib import Path
 
-DATA_PATH = Path("data/people.csv")
+DATA_PATH = Path("beginner/data/people.csv")
 
 
 def load_people_csv(path: Path = DATA_PATH) -> pd.DataFrame:
