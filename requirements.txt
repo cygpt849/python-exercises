@@ -9,7 +9,7 @@ pytest-cov
 # Formatting & Linting
 black
 mypy
-types-pandas
+pandas-stubs
 types-python-dateutil
 
 # CI Integration
