@@ -1,0 +1,16 @@
+# Core
+pandas
+numpy
+
+# Testing & Coverage
+pytest
+pytest-cov
+
+# Formatting & Linting
+black
+mypy
+types-pandas
+types-python-dateutil
+
+# CI Integration
+codecov
