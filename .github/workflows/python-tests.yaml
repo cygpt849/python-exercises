@@ -34,9 +34,9 @@ jobs:
       - name: Run Pytest with coverage
         run: pytest --cov=. --cov-report=term-missing --cov-report=xml --cov-fail-under=80 -v
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./beginner/coverage.xml
-          fail_ci_if_error: true
+      # - name: Upload coverage to Codecov
+        # uses: codecov/codecov-action@v3
+        # with:
+          # token: ${{ secrets.CODECOV_TOKEN }}
+          # files: ./beginner/coverage.xml
+          # fail_ci_if_error: true
